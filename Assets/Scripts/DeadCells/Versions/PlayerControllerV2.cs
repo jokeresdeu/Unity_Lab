@@ -17,6 +17,8 @@ namespace DeadCells.Versions
         [SerializeField] private Transform _standChecker;
         [SerializeField] private Vector2 _standCheckRect = new(0.7f, 0.7f);
         [SerializeField] private LayerMask _ground;
+        [Range(0.1f, 1)]
+        [SerializeField] private float _crouchMoveModificator = 0.4f;
 
         private Rigidbody2D _rigidbody;
         private float _horizontal;
@@ -39,35 +41,12 @@ namespace DeadCells.Versions
 
         private void FixedUpdate()
         {
-            UpdateGround();
-        }
-
-        private void UpdateGround()
-        {
             if(_vertical < 0)
                 Crouch();
             else
                 TryStand();
 
-            if(_isCrouching)
-            {
-                _rigidbody.linearVelocityX = 0;
-                return;
-            }
-
             MoveGround();
-        }
-
-        private void MoveGround()
-        {
-            if(_horizontal == 0)
-            {
-                _rigidbody.linearVelocityX = 0;
-                return;
-            }
-
-            UpdateDirection(_horizontal);
-            _rigidbody.linearVelocityX = _horizontal * _moveSpeed;
         }
 
         private void Crouch()
@@ -85,17 +64,29 @@ namespace DeadCells.Versions
                 return true;
             }
 
-            if(!CanStand())
+            if(!(Physics2D.OverlapBox(_standChecker.position, _standCheckRect, 0, _ground) == null))
                 return false;
 
             _isCrouching = false;
             _standCollider.enabled = true;
             _crouchCollider.enabled = false;
+
             return true;
         }
 
-        private bool CanStand() =>
-            Physics2D.OverlapBox(_standChecker.position, _standCheckRect, 0, _ground) == null;
+        private void MoveGround()
+        {
+            if(_horizontal == 0)
+            {
+                _rigidbody.linearVelocityX = 0;
+                return;
+            }
+
+            UpdateDirection(_horizontal);
+
+            var moveSpeed = _isCrouching ? _moveSpeed * _crouchMoveModificator : _moveSpeed;
+            _rigidbody.linearVelocityX = _horizontal * moveSpeed;
+        }
 
         private void UpdateDirection(float direction)
         {

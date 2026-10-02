@@ -6,8 +6,8 @@ namespace DeadCells.Versions
     public class PlayerControllerV1 : MonoBehaviour
     {
         [Header("Ground Movement")]
-        [SerializeField] private float _moveSpeed = 7;
-        [SerializeField] private float _faceDirection = 1;
+        [SerializeField] private float _moveSpeed;
+        [SerializeField] private float _faceDirection;
 
         private Rigidbody2D _rigidbody;
         private float _horizontal;
@@ -19,15 +19,10 @@ namespace DeadCells.Versions
 
         private void Update()
         {
-            _horizontal = Input.GetAxisRaw("Horizontal");
+            _horizontal = Input.GetAxisRaw("Horizontal"); //1 -1
         }
 
         private void FixedUpdate()
-        {
-            MoveGround();
-        }
-
-        private void MoveGround()
         {
             if(_horizontal == 0)
             {
@@ -41,10 +36,10 @@ namespace DeadCells.Versions
 
         private void UpdateDirection(float direction)
         {
-            if(direction == 0 || _faceDirection == Mathf.Sign(direction))
+            if(direction == 0 || _faceDirection == direction)
                 return;
 
-            _faceDirection = Mathf.Sign(direction);
+            _faceDirection = direction;
             transform.Rotate(0, 180, 0);
         }
     }
