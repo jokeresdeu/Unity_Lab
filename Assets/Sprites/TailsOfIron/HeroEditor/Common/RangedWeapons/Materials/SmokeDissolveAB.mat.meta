@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64a76b6c2edab694ca5426209676096b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/RangedWeapons/Materials/SmokeDissolveAB.mat
+  uploadId: 739656

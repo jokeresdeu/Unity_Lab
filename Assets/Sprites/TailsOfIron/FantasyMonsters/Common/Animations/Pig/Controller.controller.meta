@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0a8f6e833ab1d1438578182299fc73f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Pig/Controller.controller
+  uploadId: 770293

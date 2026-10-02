@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33c9af5d2302a2b4b96c82b5e525fd4d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Larva/Ready.anim
+  uploadId: 770293

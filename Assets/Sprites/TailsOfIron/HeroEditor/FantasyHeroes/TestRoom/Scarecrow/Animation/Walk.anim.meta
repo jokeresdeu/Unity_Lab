@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d16f9c53b807452194e30d0ff7f4c739
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/FantasyHeroes/TestRoom/Scarecrow/Animation/Walk.anim
+  uploadId: 739656

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fa95e2f7e8814442a1510ec97b630411
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/InventorySystem/Scripts/Data/Modifier.cs
+  uploadId: 739656

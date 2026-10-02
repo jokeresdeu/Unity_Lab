@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d017ba9421e94eaa89314609a6329f26
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/FantasyHeroes/TestRoom/Scarecrow/Scarecrow.prefab
+  uploadId: 739656

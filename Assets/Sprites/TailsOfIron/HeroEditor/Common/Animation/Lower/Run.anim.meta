@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fcc74866a14e4114bdf67f758c99fbd1
+timeCreated: 1512667807
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Lower/Run.anim
+  uploadId: 739656

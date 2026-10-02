@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4548e7adb53da146b72d18b56006739
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/SpriteSheetCapture.prefab
+  uploadId: 739656

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7147b8df5d8e4170ba495fe2abd24e53
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/SimpleColorPicker/ScriptReference.chm
+  uploadId: 739656

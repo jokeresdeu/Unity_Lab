@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 422f5f2ea71549499f154becb259725a
+timeCreated: 1517306480
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Shaders/EquipmentPaint.mat
+  uploadId: 739656

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3cb27cd27ee6874788199f3d599158c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/FantasyHeroes/Resources/FirearmCollection.asset
+  uploadId: 739656

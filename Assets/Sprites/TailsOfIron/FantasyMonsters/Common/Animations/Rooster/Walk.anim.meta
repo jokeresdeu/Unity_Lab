@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ced9fa501a791c944810050680f6a9e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Rooster/Walk.anim
+  uploadId: 770293

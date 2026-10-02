@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 844ae1c8136940509fff67bb7fb55ee6
+timeCreated: 1515759751
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/CharacterScripts/Firearms/FingerTrigger.cs
+  uploadId: 739656

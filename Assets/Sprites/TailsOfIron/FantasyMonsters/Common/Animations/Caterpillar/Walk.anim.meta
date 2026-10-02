@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6ad4885c0de04f45864590c8d82f9fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Caterpillar/Walk.anim
+  uploadId: 770293

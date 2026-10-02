@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5fed473ecbf9496085cfebe5777f1ffd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/Promo.prefab
+  uploadId: 739656

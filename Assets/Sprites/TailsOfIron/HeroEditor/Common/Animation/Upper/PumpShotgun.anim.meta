@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e633484e1eae4d1db0f0decd5d9e6c86
+timeCreated: 1515487801
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/PumpShotgun.anim
+  uploadId: 739656

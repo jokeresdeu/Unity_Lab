@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d5ae2ef8fd2e4523af645c6b54ee238a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/Common/SoloState.cs
+  uploadId: 739656

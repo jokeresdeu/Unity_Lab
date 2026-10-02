@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fb76bf0bb72b4f2d9236b4a4e21bb2f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/CharacterScripts/CharacterBodySculptor.cs
+  uploadId: 739656

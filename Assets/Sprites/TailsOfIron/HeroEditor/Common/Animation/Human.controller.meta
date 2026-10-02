@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0acc6d8cc6cc44ce9eafa9ecf65691be
+timeCreated: 1475495396
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Human.controller
+  uploadId: 739656

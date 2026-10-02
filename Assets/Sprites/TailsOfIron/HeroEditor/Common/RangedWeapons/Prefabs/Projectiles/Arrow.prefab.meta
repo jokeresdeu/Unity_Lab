@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 44e6882ae2145a3419bcdeee6e8f2f8b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/RangedWeapons/Prefabs/Projectiles/Arrow.prefab
+  uploadId: 739656

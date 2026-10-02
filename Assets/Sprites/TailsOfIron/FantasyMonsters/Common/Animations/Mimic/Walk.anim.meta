@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d38e1bda40b86ba44846f508c905eebb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Mimic/Walk.anim
+  uploadId: 770293

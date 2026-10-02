@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b1224523bda42afbf2646ba665a77b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/FantasyHeroes/Resources/IconCollection.asset
+  uploadId: 739656

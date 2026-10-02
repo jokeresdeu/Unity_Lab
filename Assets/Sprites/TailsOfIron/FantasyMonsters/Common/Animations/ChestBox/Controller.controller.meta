@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af721fa4c54bd094fbe529d700324499
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/ChestBox/Controller.controller
+  uploadId: 770293

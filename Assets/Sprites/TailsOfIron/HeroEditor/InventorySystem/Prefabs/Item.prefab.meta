@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0e4dd06699804ee78c86e19520f35e62
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/InventorySystem/Prefabs/Item.prefab
+  uploadId: 739656

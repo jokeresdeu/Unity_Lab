@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bd72733fecaa4144281fcb9b656b2d1d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/UI/Canvas.prefab
+  uploadId: 770293

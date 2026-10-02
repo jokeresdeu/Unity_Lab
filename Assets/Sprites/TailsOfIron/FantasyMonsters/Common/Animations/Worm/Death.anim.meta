@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9639cd0e22e19a345b8ad15ed1bd6559
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Worm/Death.anim
+  uploadId: 770293

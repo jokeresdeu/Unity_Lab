@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b9aed428686f7854482babd0d7554255
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/Firearms/FireMuzzle/CommonOrange.prefab
+  uploadId: 739656

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c46d262cd5344d758a1d2915f0563224
+timeCreated: 1515439740
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/ReloadPistolMagazine.anim
+  uploadId: 739656

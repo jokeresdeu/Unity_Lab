@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 568b914d3c3b7fc4faa497b65e3855bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Scarab/Ready.anim
+  uploadId: 770293

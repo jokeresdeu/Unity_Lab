@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0f80ff69c88480493277f9b7b6b5033
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/Hit.anim
+  uploadId: 739656

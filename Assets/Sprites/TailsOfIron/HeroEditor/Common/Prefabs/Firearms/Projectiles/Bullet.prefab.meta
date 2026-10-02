@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5cc404dc311b1724792ca6269114d990
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/Firearms/Projectiles/Bullet.prefab
+  uploadId: 739656

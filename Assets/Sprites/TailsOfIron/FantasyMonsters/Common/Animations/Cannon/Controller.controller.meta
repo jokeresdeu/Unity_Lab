@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05cb95a261f2ef1438f1c5397b302448
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Cannon/Controller.controller
+  uploadId: 770293

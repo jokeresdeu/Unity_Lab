@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49380a1ac62b4878b2c6f66516b2f1a7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/ColorPicker.prefab
+  uploadId: 739656

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48df58ffa2d82d142b1e6793aec92e59
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/InventorySystem/ReadMe.txt
+  uploadId: 739656

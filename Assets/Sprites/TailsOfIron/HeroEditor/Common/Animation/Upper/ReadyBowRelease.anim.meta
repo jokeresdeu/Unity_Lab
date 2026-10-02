@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 08fbd94142884d598c1397e53f18c8c2
+timeCreated: 1515613652
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/ReadyBowRelease.anim
+  uploadId: 739656

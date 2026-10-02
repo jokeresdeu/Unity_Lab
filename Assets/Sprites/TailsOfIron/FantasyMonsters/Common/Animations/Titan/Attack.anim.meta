@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a85329a910c9ee40b2b1f15ae61744c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Titan/Attack.anim
+  uploadId: 770293

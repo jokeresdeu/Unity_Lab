@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9eeaee1870b421881a032b076d21a57
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/InventorySystem/Scripts/Enums/ModificatorType.cs
+  uploadId: 739656

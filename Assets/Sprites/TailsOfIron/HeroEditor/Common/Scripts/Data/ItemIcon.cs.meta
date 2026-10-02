@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 98da54ebf55d450c8ad0c4758cc1721a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/Data/ItemIcon.cs
+  uploadId: 739656

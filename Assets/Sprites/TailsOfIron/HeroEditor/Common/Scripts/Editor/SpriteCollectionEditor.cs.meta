@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1e2df9e1f1464b858ad6899b268af502
+timeCreated: 1516785062
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/Editor/SpriteCollectionEditor.cs
+  uploadId: 739656

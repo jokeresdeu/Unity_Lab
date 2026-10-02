@@ -2,21 +2,21 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Enemy
+  - Platform
+  - Wall
+  - Ladder
+  - Ledge
   - 
   - 
   - 
@@ -38,6 +38,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1669506073
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Environment
+    uniqueID: 2723497823
+    locked: 0
+  - name: Enemies
+    uniqueID: 1244721481
+    locked: 0
+  - name: Player
+    uniqueID: 804361713
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d94b05c378388d34c8c96c9dfc4dc5a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Larva/Walk.anim
+  uploadId: 770293

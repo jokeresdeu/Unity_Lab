@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 80582d19ebfb4230bfe3e7e1d6b5e831
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/SimpleColorPicker/Scripts/ColorSlider.cs
+  uploadId: 739656

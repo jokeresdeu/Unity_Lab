@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ff0b6a4255674294b10b320fc1874d3c
+timeCreated: 1517347517
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/SlashMeleePaired.anim
+  uploadId: 739656

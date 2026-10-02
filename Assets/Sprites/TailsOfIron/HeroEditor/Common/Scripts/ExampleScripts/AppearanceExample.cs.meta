@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f0cc7b37f6e09ea489bc61ebb5955302
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/ExampleScripts/AppearanceExample.cs
+  uploadId: 739656

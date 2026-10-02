@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6e85effb28e643a8aa2aede7b9fff4eb
+timeCreated: 1508494765
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/InventorySystem/Scripts/Elements/ItemContainer.cs
+  uploadId: 739656

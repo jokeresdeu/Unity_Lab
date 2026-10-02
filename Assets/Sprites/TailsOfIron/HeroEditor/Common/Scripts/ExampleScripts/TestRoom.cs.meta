@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 94e03da1011e4bbd97d73a8acea02fbb
+timeCreated: 1516875854
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/ExampleScripts/TestRoom.cs
+  uploadId: 739656

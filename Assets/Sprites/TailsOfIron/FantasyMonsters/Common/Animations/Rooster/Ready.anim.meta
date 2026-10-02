@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9b079eff20a73c439c5b72bf34f46ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Rooster/Ready.anim
+  uploadId: 770293

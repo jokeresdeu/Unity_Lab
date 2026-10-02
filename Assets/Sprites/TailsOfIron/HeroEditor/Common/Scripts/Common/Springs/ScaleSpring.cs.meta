@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c5f1534ff0f34017ab3cd8ed787560e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/Common/Springs/ScaleSpring.cs
+  uploadId: 739656

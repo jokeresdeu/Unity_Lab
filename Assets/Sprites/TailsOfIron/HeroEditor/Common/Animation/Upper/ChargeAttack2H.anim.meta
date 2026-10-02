@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1ea229125dff44b1a6084e4281e63410
+timeCreated: 1517347516
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/ChargeAttack2H.anim
+  uploadId: 739656

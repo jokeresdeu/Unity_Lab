@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 91b55141edc14e008728aca07d674cf4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/FantasyHeroes/TestRoom/Scripts/LayerManager.cs
+  uploadId: 739656

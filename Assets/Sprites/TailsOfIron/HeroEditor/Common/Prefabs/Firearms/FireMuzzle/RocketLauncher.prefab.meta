@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d601868db2cb0b143817891fcfa5fa77
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Prefabs/Firearms/FireMuzzle/RocketLauncher.prefab
+  uploadId: 739656

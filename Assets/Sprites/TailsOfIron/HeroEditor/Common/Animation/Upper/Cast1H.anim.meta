@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f79a089a32af4b8fa1c24ca5eb372a96
+timeCreated: 1517347517
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/Cast1H.anim
+  uploadId: 739656

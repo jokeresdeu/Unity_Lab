@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e0105e23e272418c94b0bbf1e7d02dee
+timeCreated: 1515485876
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/CharacterScripts/Firearms/Firearm.cs
+  uploadId: 739656

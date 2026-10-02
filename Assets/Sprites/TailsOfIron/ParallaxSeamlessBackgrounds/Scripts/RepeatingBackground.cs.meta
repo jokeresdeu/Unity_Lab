@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 50dff95ff9335ab48a3e9beb15dcf902
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148003
+  packageName: Parallax Seamless Backgrounds HQ
+  packageVersion: 1.2
+  assetPath: Assets/ParallaxSeamlessBackgrounds/Scripts/RepeatingBackground.cs
+  uploadId: 562134

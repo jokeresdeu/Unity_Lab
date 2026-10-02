@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d6ae21a8d4bdaf43b27cd7d3cc0adfb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Monsters/Scripts/Editor/PackageUpdater.cs
+  uploadId: 770293

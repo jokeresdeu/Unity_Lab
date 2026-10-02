@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4c42a1932354450ab6feaffd5347c02e
+timeCreated: 1514844746
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Lower/Climb.anim
+  uploadId: 739656

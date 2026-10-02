@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 956157c4544547c08e5c25f3e327e9ba
+timeCreated: 1515706942
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/ReadyMelee1H.anim
+  uploadId: 739656

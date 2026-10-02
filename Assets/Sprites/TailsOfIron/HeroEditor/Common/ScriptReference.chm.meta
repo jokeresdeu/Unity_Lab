@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0dacb6bc4aee4d2b90db00d0c09d41fb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/ScriptReference.chm
+  uploadId: 739656

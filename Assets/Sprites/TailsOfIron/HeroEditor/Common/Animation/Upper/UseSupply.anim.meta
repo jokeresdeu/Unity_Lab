@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d440bdd9c0a448f8b8e93daaa11d9508
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Animation/Upper/UseSupply.anim
+  uploadId: 739656

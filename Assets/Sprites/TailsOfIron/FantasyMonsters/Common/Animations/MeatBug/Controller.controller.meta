@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f92f2974665843645a7e5eec9dbacfdc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/MeatBug/Controller.controller
+  uploadId: 770293

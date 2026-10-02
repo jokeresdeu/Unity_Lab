@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6043f6aaf0ff41beaa887e120fcb3674
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/Scripts/CharacterScripts/CharacterSerializer.cs
+  uploadId: 739656

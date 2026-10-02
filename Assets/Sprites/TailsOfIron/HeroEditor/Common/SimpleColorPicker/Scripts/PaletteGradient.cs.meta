@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: baa3d2c4576648868b2d6ff94045b6a0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/SimpleColorPicker/Scripts/PaletteGradient.cs
+  uploadId: 739656

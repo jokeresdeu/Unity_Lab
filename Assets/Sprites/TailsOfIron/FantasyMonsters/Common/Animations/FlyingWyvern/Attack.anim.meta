@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 557fcf143c41f16409ae0d3832f5378f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/FlyingWyvern/Attack.anim
+  uploadId: 770293

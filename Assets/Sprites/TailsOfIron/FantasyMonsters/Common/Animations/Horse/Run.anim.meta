@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8d7b1070666acd45976f4caa4b6f82b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Horse/Run.anim
+  uploadId: 770293

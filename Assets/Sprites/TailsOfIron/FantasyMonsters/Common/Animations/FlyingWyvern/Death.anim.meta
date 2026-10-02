@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cbedec05c3d4994d959869882ddad90
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/FlyingWyvern/Death.anim
+  uploadId: 770293

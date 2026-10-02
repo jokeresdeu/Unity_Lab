@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b9196a6242cae994fa852ae882665087
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90592
+  packageName: 'Character Editor [Fantasy]'
+  packageVersion: 8.5
+  assetPath: Assets/HeroEditor/Common/RangedWeapons/Sounds/Firearms/License.txt
+  uploadId: 739656

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45c1c397f9d85e9408a533675b5a9661
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Giant/Walk.anim
+  uploadId: 770293

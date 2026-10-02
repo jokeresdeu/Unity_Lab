@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 297df06cd27aa814fb7e285d72a9dded
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Worm/Controller.controller
+  uploadId: 770293

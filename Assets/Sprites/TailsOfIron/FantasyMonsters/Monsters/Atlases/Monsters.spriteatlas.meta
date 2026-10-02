@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cdb0e1ebe20e4bb489df575f4506d46f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4343727234628468602
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Monsters/Atlases/Monsters.spriteatlas
+  uploadId: 770293

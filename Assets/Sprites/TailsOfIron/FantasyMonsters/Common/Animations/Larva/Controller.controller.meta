@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d1d8778e3c36524e9a0e1bf74f1a709
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Larva/Controller.controller
+  uploadId: 770293

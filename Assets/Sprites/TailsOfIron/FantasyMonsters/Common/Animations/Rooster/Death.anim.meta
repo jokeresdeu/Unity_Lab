@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bcc5d7261229f5744b556bcff5686ce6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Rooster/Death.anim
+  uploadId: 770293

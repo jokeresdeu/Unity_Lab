@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f087d64aaa749f245a05c757eb00d90e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Scarab/Attack.anim
+  uploadId: 770293

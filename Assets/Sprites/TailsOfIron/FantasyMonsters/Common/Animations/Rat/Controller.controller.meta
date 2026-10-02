@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5021932ef6de3249adc4ed0b0b32acb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 159572
+  packageName: 'Fantasy Monsters Animated [Megapack]'
+  packageVersion: 3.1
+  assetPath: Assets/FantasyMonsters/Common/Animations/Rat/Controller.controller
+  uploadId: 770293
