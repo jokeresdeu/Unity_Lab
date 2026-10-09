@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4c7c514ed05e1cc488ef928a1dd1835d
+labels:
+- 2d
+- Unitychan
+timeCreated: 1453789663
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Scripts/PixelArtPackInputReader.cs
+  uploadId: 846772

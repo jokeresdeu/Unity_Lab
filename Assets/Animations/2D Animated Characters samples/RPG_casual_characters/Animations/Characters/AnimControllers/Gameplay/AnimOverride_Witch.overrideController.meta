@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 666d57cd5e3898b47a7d3a9f70b15230
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimControllers/Gameplay/AnimOverride_Witch.overrideController
+  uploadId: 846772

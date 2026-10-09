@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 944cba5a8e40a784e85b4f6a9c7a9203
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Farm top down/Characters/Animations/Anim_character_picking_front.anim
+  uploadId: 846772

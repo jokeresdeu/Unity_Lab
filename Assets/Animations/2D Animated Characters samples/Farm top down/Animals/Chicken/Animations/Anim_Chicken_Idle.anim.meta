@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 930e778e4da7c5248a3f60c60d2ecd09
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Farm top down/Animals/Chicken/Animations/Anim_Chicken_Idle.anim
+  uploadId: 846772

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fc6278608e3b56f4cb6441b396714548
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: db2778f6d440c47ddacff25997d7c062, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Puzzle mermaid/SpriteLib_PSD_character_mermaid.spriteLib
+  uploadId: 846772

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2a16be949b36b41a7885603954b3025c
+labels:
+- Unitychan
+- 2d
+timeCreated: 1452767834
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/AnimController/BaseEmotionController.controller
+  uploadId: 846772

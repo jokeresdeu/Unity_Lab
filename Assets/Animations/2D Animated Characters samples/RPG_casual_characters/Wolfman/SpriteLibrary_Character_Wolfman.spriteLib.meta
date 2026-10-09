@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9fb24bebd1cdaa44b0285a0faa662fa
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: db2778f6d440c47ddacff25997d7c062, type: 3}
+  primaryLibrary: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Wolfman/SpriteLibrary_Character_Wolfman.spriteLib
+  uploadId: 846772

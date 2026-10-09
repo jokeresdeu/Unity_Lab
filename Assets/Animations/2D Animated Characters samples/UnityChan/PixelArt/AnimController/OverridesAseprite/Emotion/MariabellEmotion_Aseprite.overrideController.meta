@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 744fb2199188be84580f570c14f8b40a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/AnimController/OverridesAseprite/Emotion/MariabellEmotion_Aseprite.overrideController
+  uploadId: 846772

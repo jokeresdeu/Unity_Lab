@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0720f4cb9f897264f8fd7db7580ac43f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Empty/AnimClip_Die.anim
+  uploadId: 846772

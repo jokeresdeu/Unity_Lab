@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5406dfc2677b2044f97dda45e5b11084
+labels:
+- Unitychan
+- 2d
+timeCreated: 1452604231
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Scenes/Standard
+    Actions/Standard Actions (Aseprite).unity
+  uploadId: 846772

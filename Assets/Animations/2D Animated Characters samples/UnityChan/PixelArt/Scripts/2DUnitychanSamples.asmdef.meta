@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb927a058214e455593107a1c843c214
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Scripts/2DUnitychanSamples.asmdef
+  uploadId: 846772

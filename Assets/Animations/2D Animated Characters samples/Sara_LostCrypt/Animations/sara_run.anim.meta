@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1dcb1a820ec070749bdbba82738d0b7d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Sara_LostCrypt/Animations/sara_run.anim
+  uploadId: 846772

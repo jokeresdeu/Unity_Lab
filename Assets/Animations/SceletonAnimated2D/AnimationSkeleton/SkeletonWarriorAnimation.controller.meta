@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a37ddba84892c83489111d201d111a96
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262058
+  packageName: Animated Sceleton Warrior
+  packageVersion: 1.0
+  assetPath: Assets/SceletonAnimated2D/AnimationSkeleton/SkeletonWarriorAnimation.controller
+  uploadId: 612397

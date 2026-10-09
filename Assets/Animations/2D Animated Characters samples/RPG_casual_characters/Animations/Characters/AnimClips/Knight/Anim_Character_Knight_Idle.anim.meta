@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52539adaa54ac5f4d99df17806470ce7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Knight/Anim_Character_Knight_Idle.anim
+  uploadId: 846772

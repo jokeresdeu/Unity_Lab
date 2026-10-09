@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fbf9645bc81e6164ca10109bca4c15db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Shared_Bipeds/Anim_Character_Bipedal_Run.anim
+  uploadId: 846772

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 41f2ba0a3b728dc4e923c50a6c6d1430
+labels:
+- Unitychan
+- 2d
+timeCreated: 1453751780
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Scenes/Battle
+    Actions/Battle Actions (Aseprite).unity
+  uploadId: 846772

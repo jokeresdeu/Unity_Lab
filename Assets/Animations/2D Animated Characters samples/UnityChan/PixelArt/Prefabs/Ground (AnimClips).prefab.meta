@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfab56d8c93033e46a240b188b60827e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Prefabs/Ground
+    (AnimClips).prefab
+  uploadId: 846772

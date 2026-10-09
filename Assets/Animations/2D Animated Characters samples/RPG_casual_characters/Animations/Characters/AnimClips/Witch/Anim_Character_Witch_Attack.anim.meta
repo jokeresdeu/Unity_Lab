@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ddb5d25951a9cb49b27d9fc50ff230a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Witch/Anim_Character_Witch_Attack.anim
+  uploadId: 846772

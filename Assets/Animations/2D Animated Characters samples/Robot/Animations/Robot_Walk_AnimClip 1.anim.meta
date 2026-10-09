@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 213408285e5d04dd7bff0f16029c4712
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Robot/Animations/Robot_Walk_AnimClip
+    1.anim
+  uploadId: 846772

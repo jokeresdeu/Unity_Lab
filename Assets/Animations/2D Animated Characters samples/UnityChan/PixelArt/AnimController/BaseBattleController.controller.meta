@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 29b85040416b841168ef873327c075e1
+labels:
+- Unitychan
+- 2d
+timeCreated: 1452841515
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/AnimController/BaseBattleController.controller
+  uploadId: 846772

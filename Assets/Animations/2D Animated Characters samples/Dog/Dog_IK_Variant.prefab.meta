@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4d095446a292d684e9c799857dccd097
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Dog/Dog_IK_Variant.prefab
+  uploadId: 846772

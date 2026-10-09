@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 216712663bc7e43a5bc5aafeee997c5a
+labels:
+- Unitychan
+- 2d
+timeCreated: 1452669879
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/Scripts/Scenes/StandardActionsSceneSpriteController.cs
+  uploadId: 846772

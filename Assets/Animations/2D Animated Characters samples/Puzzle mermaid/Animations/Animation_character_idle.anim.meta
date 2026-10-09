@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ddde4dc939994a57bc3c7cd1e8dbe7f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Puzzle mermaid/Animations/Animation_character_idle.anim
+  uploadId: 846772

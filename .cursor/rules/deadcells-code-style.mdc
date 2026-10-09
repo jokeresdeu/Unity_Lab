@@ -1,0 +1,78 @@
+---
+description: Code style for DeadCells Versions scripts — naming, member order, spelling
+globs: Assets/Scripts/DeadCells/Versions/**/*.cs
+alwaysApply: false
+---
+
+# DeadCells Code Style
+
+Write in English, keep it short, skip extra abstractions. A name says **who owns it** and **what it is**, not how it is implemented.
+
+## Member order
+
+1. `const` / `static readonly`
+2. `[SerializeField]` fields, grouped with `[Header]` by domain
+3. Runtime fields (`readonly` collections → current references → timers/flags)
+4. `event`
+5. Public properties: identity first (`Id`, `ActivationPriority`, `AnimationValue`), then derived
+6. Private properties (`IsGrounded`, `CanDropThrough`, `IsAvailable`)
+7. Unity lifecycle: `Awake` → `OnEnable` → `OnDisable` → `Update` / `FixedUpdate` / `LateUpdate`
+8. Public/override state API: `Initialize` → `CanBeActivated` → `EnterState` → `UpdateState` → `EndState` → `ResetState`
+9. Other public commands (`PlayHurt`, `ConsumeJump`, `Stagger`)
+10. Private methods: `Update*` first, then `Start*` / `Move*`, then queries `Get*` / `Try*` / `Is*`
+11. `OnDrawGizmosSelected`
+12. Nested types at the end
+
+Do not scatter fields after methods. Do not hide runtime state between serialized fields.
+
+## Spelling
+
+- Types — `PascalCase`. Fields — `_camelCase`. Locals/parameters — `camelCase`. Constants — `PascalCase`.
+- One file = one public type. File name = type name.
+- Full words. No abbreviations (`pos`, `col`, `anim`, `ctrl`) and no Hungarian (`bIs`, `fSpeed`).
+- English nouns and verbs. Do not transliterate Ukrainian.
+- `_` prefix only on class fields. Never on properties or locals.
+- Bool properties: `Is` / `Can` / `Has` (`IsGrounded`, `CanDropThrough`). Bool fields: `_isComplete`, `_hasAnimation`, `_restoreColliderPending`.
+- Instant in time — suffix `At` (`_jumpStartedAt`). Duration — `Time`. Speed — `Speed`.
+
+## Naming logic
+
+A name is **owner + essence**, not a dependency on another class.
+
+| Role | Form | Example |
+|---|---|---|
+| Player component | `Player{Role}` | `PlayerController`, `PlayerInput` |
+| State | `Player{Name}State` = enum `PlayerState.{Name}` | `PlayerGroundState` / `Ground` |
+| Abstraction implementation | `{How}{Base}` | `ClipAnimationController` |
+| World check | `_groundChecker`, `_groundCheckRect`, layer `_ground` | not `*Mask`, not `*Check` for a Transform |
+| Current collider | `_currentGround` | not `groundCol` |
+| Buffered input | `{Action}Buffered` + `Consume{Action}` | `JumpBuffered`, `ConsumeJump` |
+| Completion event | past tense / `Invoked` | `AnimationCompleted` |
+| Unity message | as in animation | `AnimationEnded`, `OnAnimationActionInvoked` |
+| Handler | `On{Event}` | `OnAnimationEnded` |
+
+Field prefix is the state's domain, not the whole world: in `PlayerWallState` write `_wallRunSpeed`, not `_speed`. Enum values are the state name without a `State` suffix (`LightAttack`, not `LightAttackState`).
+
+Do not name a method after a foreign state (`GoToAir`). A state knows only itself; transitions go through `CanBeActivated` and priority.
+
+```csharp
+// bad
+public void RequestAirFromGround() { }
+private LayerMask _groundMask;
+private Transform _gCheck;
+
+// good
+public override bool CanBeActivated(PlayerState? currentState) { }
+[SerializeField] private LayerMask _ground;
+[SerializeField] private Transform _groundChecker;
+```
+
+## Code form
+
+- Concrete `MonoBehaviour` — `sealed` + `[DisallowMultipleComponent]`.
+- Early `return`. `if(`/`foreach(` with no space after the keyword.
+- Expression-bodied members only for single-line getters/methods.
+- `var` when the type is obvious from the right-hand side.
+- Minimal `using`. No comments that restate the code.
+- State dependencies come through `Initialize`, not `GetComponent` in per-frame logic.
+- Do not add a Context, service locator, or events between states "just in case".

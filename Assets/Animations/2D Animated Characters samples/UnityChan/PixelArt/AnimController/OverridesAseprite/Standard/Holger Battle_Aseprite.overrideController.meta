@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4a5e8811c61be074997635523c4e6053
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/AnimController/OverridesAseprite/Standard/Holger
+    Battle_Aseprite.overrideController
+  uploadId: 846772

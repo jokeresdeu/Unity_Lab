@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c2edc49740924f749fa90ae9e37954e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Dragon/AnimClip_Character_Dragon_Death.anim
+  uploadId: 846772

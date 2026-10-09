@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ebb9932ae42d48842a2182d5cb2b7038
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Empty/AnimClip_Idle.anim
+  uploadId: 846772

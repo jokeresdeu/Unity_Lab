@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fe0900a985c5be4cb8cc69751ce7791
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/UnityChan/PixelArt/AnimController/OverridesAseprite/Standard/Toko_Aseprite.overrideController
+  uploadId: 846772

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0fe1e8e307a16b741be319787a70e379
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Sara_LostCrypt/Animations/sara_flipSide.anim
+  uploadId: 846772

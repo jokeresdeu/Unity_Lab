@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec55978569da0a146aa97230eb5489f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Farm top down/Characters/Animations/Anim_character_planting_up.anim
+  uploadId: 846772

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a56df6b34c0b374d918a413f46aaf6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Farm top down/Animals/Cow/Animation/Controller_cow.controller
+  uploadId: 846772

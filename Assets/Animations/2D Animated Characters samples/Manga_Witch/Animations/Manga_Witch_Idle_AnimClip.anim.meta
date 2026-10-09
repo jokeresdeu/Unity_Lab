@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 200905f3ca8b340aa8a489b695408fef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Manga_Witch/Animations/Manga_Witch_Idle_AnimClip.anim
+  uploadId: 846772

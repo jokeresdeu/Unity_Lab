@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aff17b249c1364f40bb72e00fb1a5a77
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Wolfman/Anim_Character_Wolfman_Idle.anim
+  uploadId: 846772

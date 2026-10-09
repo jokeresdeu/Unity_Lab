@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c71952e188404dc42b07e09284da7103
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/RPG_casual_characters/Animations/Characters/AnimClips/Empty/AnimClip_GetHit.anim
+  uploadId: 846772

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 646ec4cd6e0be7a46b131796844164ff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Ninja_Cat/IK_Arm.prefab
+  uploadId: 846772

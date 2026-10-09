@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7739ed96012507548a858f5ebc2b4b2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 354550
+  packageName: 2D Animation Samples
+  packageVersion: 1.0
+  assetPath: Assets/2D Animated Characters samples/Farm top down/Characters/Animations/Anim_character_tool_swing_side.anim
+  uploadId: 846772
