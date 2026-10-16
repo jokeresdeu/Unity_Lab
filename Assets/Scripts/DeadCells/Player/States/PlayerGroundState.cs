@@ -8,7 +8,7 @@ namespace DeadCells.Player.States
     public sealed class PlayerGroundState : PlayerMovementState
     {
         [Header("Movement")]
-        [SerializeField] private float _moveSpeed = 7;
+        [SerializeField] private float _moveSpeed = 4;
 
         [Header("Ground")]
         [SerializeField] private Transform _groundChecker;
@@ -83,7 +83,7 @@ namespace DeadCells.Player.States
 
         private void UpdateGround()
         {
-            FindColliders(_groundChecker.position, _groundCheckRect, _ground.value | _oneWayPlatform.value);
+            FindColliders(_groundChecker.position, _groundCheckRect, _ground.value | _oneWayPlatform.value, true);
             _currentGround = null;
 
             foreach(var otherCollider in Overlaps)
@@ -91,9 +91,20 @@ namespace DeadCells.Player.States
                 if(IsDropped(otherCollider))
                     continue;
 
+                if(otherCollider.isTrigger && !IsStandingOnTop(otherCollider))
+                    continue;
+
                 if(_currentGround == null || otherCollider.bounds.max.y > _currentGround.bounds.max.y)
                     _currentGround = otherCollider;
             }
+        }
+
+        private bool IsStandingOnTop(Collider2D otherCollider)
+        {
+            var top = otherCollider.bounds.max.y;
+            var checkerMin = _groundChecker.position.y - _groundCheckRect.y * 0.5f;
+            var checkerMax = _groundChecker.position.y + _groundCheckRect.y * 0.5f;
+            return top >= checkerMin && top <= checkerMax + 0.05f;
         }
 
         private void UpdatePhysics()

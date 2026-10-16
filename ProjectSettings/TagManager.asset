@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -12,11 +13,11 @@ TagManager:
   - Water
   - UI
   - Ground
-  - Enemy
+  - EnemyPhysics
   - Platform
   - Wall
   - Ladder
-  - 
+  - EnemyInteraction
   - 
   - 
   - 

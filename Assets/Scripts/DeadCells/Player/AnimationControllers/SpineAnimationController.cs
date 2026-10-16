@@ -71,8 +71,17 @@ namespace DeadCells.Player.AnimationControllers
 
         public override void PlayHurt()
         {
-            if(!string.IsNullOrEmpty(_hurt))
-                _skeletonAnimation.AnimationState.SetAnimation(1, _hurt, false).Complete += OnHurtCompleted;
+            if(string.IsNullOrEmpty(_hurt) || _skeletonAnimation == null)
+                return;
+
+            if(_currentAnimation != null)
+                _currentAnimation.Complete -= OnAnimationCompleted;
+
+            _state = PlayerState.Hurt;
+            _stateValue = 0;
+            _hasAnimation = true;
+            _currentAnimation = _skeletonAnimation.AnimationState.SetAnimation(0, _hurt, false);
+            _currentAnimation.Complete += OnAnimationCompleted;
         }
 
         private string GetAnimationName(PlayerState state, int value)
@@ -91,14 +100,10 @@ namespace DeadCells.Player.AnimationControllers
                     return _ledgeClimb;
                 case PlayerState.Low:
                     return value == 0 ? _crouch : _roll;
-                case PlayerState.LightAttack:
-                    return _lightAttack;
-                case PlayerState.HeavyAttack:
-                    return _heavyAttack;
-                case PlayerState.Staggered:
-                    return _staggered;
-                case PlayerState.Death:
-                    return _death;
+                case PlayerState.Attack:
+                    return value == 0 ? _lightAttack : _heavyAttack;
+                case PlayerState.Hurt:
+                    return value == 2 ? _death : value == 1 ? _staggered : _hurt;
                 default:
                     return null;
             }
@@ -111,12 +116,11 @@ namespace DeadCells.Player.AnimationControllers
         }
 
         private void OnAnimationCompleted(TrackEntry trackEntry) => InvokeAnimationCompleted();
-        private void OnHurtCompleted(TrackEntry trackEntry) => _skeletonAnimation.AnimationState.ClearTrack(1);
 
         private void OnAnimationEvent(TrackEntry trackEntry, Spine.Event animationEvent)
         {
             if(animationEvent.Data.Name == _animationActionEvent)
-                OnAnimationActionInvoked();
+                AnimationAction();
         }
 
         private void OnDestroy()

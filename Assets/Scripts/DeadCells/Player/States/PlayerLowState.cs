@@ -7,33 +7,33 @@ namespace DeadCells.Player.States
     [DisallowMultipleComponent]
     public sealed class PlayerLowState : PlayerMovementState
     {
+        private const float HeadCheckPadding = 0.03f;
+
         [Header("Colliders")]
         [SerializeField] private Collider2D _standCollider;
         [SerializeField] private Collider2D _lowCollider;
 
         [Header("Stand Check")]
-        [SerializeField] private Transform _standChecker;
-        [SerializeField] private Vector2 _standCheckRect = new (0.7f, 0.8f);
         [SerializeField] private LayerMask _obstacles;
+
+        [Header("Movement")]
+        [SerializeField] private float _moveSpeed = 4;
+        [SerializeField] private float _crouchSpeedMultiplier = 0.5f;
 
         [Header("Roll")]
         [SerializeField] private float _rollSpeed = 12;
 
         private int _rollDirection;
         private bool _restoreColliderPending;
+        private bool _canStand;
 
         public override PlayerState Id => PlayerState.Low;
         public override int ActivationPriority => 20;
         public override int AnimationValue => _rollDirection != 0 ? 1 : 0;
-        
-        private bool _canStand;
 
         public override void Initialize(PlayerInput input, Rigidbody2D rigidbody, AnimationController animationController)
         {
             base.Initialize(input, rigidbody, animationController);
-
-            if(_standChecker == null)
-                throw new InvalidOperationException("PlayerLowState: assign Stand Checker.");
 
             if(_standCollider == null || _lowCollider == null || _standCollider == _lowCollider ||
                _standCollider.attachedRigidbody != Rigidbody || _lowCollider.attachedRigidbody != Rigidbody ||
@@ -50,24 +50,28 @@ namespace DeadCells.Player.States
             AnimationController.AnimationCompleted += OnAnimationEnded;
             _rollDirection = 0;
             UpdateCrouch(true);
-            Rigidbody.linearVelocityX = 0;
 
             if(Input.ConsumeRoll())
                 StartRoll();
+            else
+                MoveCrouch();
         }
 
         public override bool CanBeActivated(PlayerState? currentState)
         {
-            FindColliders(_standChecker, _standCheckRect, _obstacles);
-            _canStand = Overlaps.Count == 0;
-
-            if(_restoreColliderPending)
-                RestoreCollider();
-
             if(currentState != Id)
-                return Input.RollBuffered || !_canStand ||
-                       Input.Vertical < 0 && !Input.JumpBuffered;
+            {
+                if(_restoreColliderPending)
+                {
+                    UpdateStandCheck();
+                    RestoreCollider();
+                }
 
+                return Input.RollBuffered ||
+                       Input.Vertical < 0 && !Input.JumpBuffered;
+            }
+
+            UpdateStandCheck();
             return !Input.JumpBuffered &&
                    (_rollDirection != 0 || !_canStand || Input.Vertical < 0);
         }
@@ -86,7 +90,7 @@ namespace DeadCells.Player.States
                 return;
             }
 
-            Rigidbody.linearVelocityX = 0;
+            MoveCrouch();
         }
 
         public override void EndState()
@@ -112,13 +116,21 @@ namespace DeadCells.Player.States
             AnimationController.PlayAnimation(Id, 1, true);
         }
 
+        private void MoveCrouch()
+        {
+            if(Input.Horizontal != 0 && Mathf.Sign(transform.forward.z) != Input.Horizontal)
+                transform.Rotate(0, 180, 0);
+
+            Rigidbody.linearVelocityX = Input.Horizontal * _moveSpeed * _crouchSpeedMultiplier;
+        }
+
         private void OnAnimationEnded()
         {
             if(_rollDirection == 0)
                 return;
 
             _rollDirection = 0;
-            Rigidbody.linearVelocityX = 0;
+            MoveCrouch();
         }
 
         private void RestoreCollider()
@@ -139,13 +151,45 @@ namespace DeadCells.Player.States
             _lowCollider.enabled = crouch;
         }
 
+        private void UpdateStandCheck()
+        {
+            GetHeadCheck(out var center, out var size);
+            FindColliders(center, size, _obstacles);
+            _canStand = Overlaps.Count == 0;
+        }
+
+        private void GetHeadCheck(out Vector2 center, out Vector2 size)
+        {
+            var standBounds = GetColliderBounds(_standCollider);
+            var lowBounds = GetColliderBounds(_lowCollider);
+            var bottom = lowBounds.max.y;
+            var top = standBounds.max.y + HeadCheckPadding;
+            var height = Mathf.Max(0.05f, top - bottom);
+            center = new Vector2(standBounds.center.x, bottom + height * 0.5f);
+            size = new Vector2(standBounds.size.x * 0.9f, height);
+        }
+
+        private static Bounds GetColliderBounds(Collider2D collider)
+        {
+            if(collider is CapsuleCollider2D capsule)
+            {
+                var lossy = capsule.transform.lossyScale;
+                var center = (Vector2)capsule.transform.TransformPoint(capsule.offset);
+                var size = new Vector2(Mathf.Abs(capsule.size.x * lossy.x), Mathf.Abs(capsule.size.y * lossy.y));
+                return new Bounds(center, size);
+            }
+
+            return collider.bounds;
+        }
+
         private void OnDrawGizmosSelected()
         {
-            if(_standChecker == null)
+            if(_standCollider == null || _lowCollider == null)
                 return;
 
+            GetHeadCheck(out var center, out var size);
             Gizmos.color = Color.magenta;
-            Gizmos.DrawWireCube(_standChecker.position, _standCheckRect);
+            Gizmos.DrawWireCube(center, size);
         }
     }
 }

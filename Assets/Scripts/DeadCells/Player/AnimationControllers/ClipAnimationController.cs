@@ -36,22 +36,32 @@ namespace DeadCells.Player.AnimationControllers
         private PlayableGraph _graph;
         private AnimationLayerMixerPlayable _mixer;
         private AnimationClipPlayable _animation;
-        private AnimationClipPlayable _hurtAnimation;
         private PlayerState _state;
         private int _stateValue;
         private bool _hasAnimation;
         private float _completionTime;
-        private float _hurtTime;
 
         public override int StateValue => _stateValue;
-        public override void AnimationEnded() { }
+        public override void PlayHurt()
+        {
+            if(_hurt == null)
+                return;
+
+            _state = PlayerState.Hurt;
+            _stateValue = 0;
+            _hasAnimation = true;
+            SetClip(0, _hurt, ref _animation);
+            _completionTime = _hurt.length / GetSpeed();
+        }
+
+        public override void AnimationEnd() { }
 
         private void Awake()
         {
             var animator = GetComponent<Animator>();
             _graph = PlayableGraph.Create(name);
             _graph.SetTimeUpdateMode(DirectorUpdateMode.GameTime);
-            _mixer = AnimationLayerMixerPlayable.Create(_graph, 2);
+            _mixer = AnimationLayerMixerPlayable.Create(_graph, 1);
             AnimationPlayableOutput.Create(_graph, name, animator).SetSourcePlayable(_mixer);
             _graph.Play();
         }
@@ -73,33 +83,15 @@ namespace DeadCells.Player.AnimationControllers
             _completionTime = IsLooping(state, value) ? 0 : clip.length / GetSpeed();
         }
 
-        public override void PlayHurt()
-        {
-            if(_hurt == null)
-                return;
-
-            SetClip(1, _hurt, ref _hurtAnimation);
-            _mixer.SetInputWeight(1, 1);
-            _hurtTime = _hurt.length / GetSpeed();
-        }
-
         private void Update()
         {
-            if(_completionTime > 0)
-            {
-                _completionTime -= Time.deltaTime;
-
-                if(_completionTime <= 0)
-                    InvokeAnimationCompleted();
-            }
-
-            if(_hurtTime <= 0)
+            if(_completionTime <= 0)
                 return;
 
-            _hurtTime -= Time.deltaTime;
+            _completionTime -= Time.deltaTime;
 
-            if(_hurtTime <= 0)
-                _mixer.SetInputWeight(1, 0);
+            if(_completionTime <= 0)
+                InvokeAnimationCompleted();
         }
 
         private void SetClip(int input, AnimationClip clip, ref AnimationClipPlayable playable)
@@ -132,14 +124,10 @@ namespace DeadCells.Player.AnimationControllers
                     return _ledgeClimb;
                 case PlayerState.Low:
                     return value == 0 ? _crouch : _roll;
-                case PlayerState.LightAttack:
-                    return _lightAttack;
-                case PlayerState.HeavyAttack:
-                    return _heavyAttack;
-                case PlayerState.Staggered:
-                    return _staggered;
-                case PlayerState.Death:
-                    return _death;
+                case PlayerState.Attack:
+                    return value == 0 ? _lightAttack : _heavyAttack;
+                case PlayerState.Hurt:
+                    return value == 2 ? _death : value == 1 ? _staggered : _hurt;
                 default:
                     return null;
             }

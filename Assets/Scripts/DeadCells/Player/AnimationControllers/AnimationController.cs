@@ -14,8 +14,8 @@ namespace DeadCells.Player.AnimationControllers
         public abstract void PlayAnimation(PlayerState state, int value = 0, bool restart = false);
         public abstract void PlayHurt();
 
-        public virtual void AnimationEnded() => InvokeAnimationCompleted();
-        public void OnAnimationActionInvoked() => AnimationActionInvoked?.Invoke();
+        public virtual void AnimationEnd() => InvokeAnimationCompleted();
+        public void AnimationAction() => AnimationActionInvoked?.Invoke();
 
         protected void InvokeAnimationCompleted() => AnimationCompleted?.Invoke();
     }

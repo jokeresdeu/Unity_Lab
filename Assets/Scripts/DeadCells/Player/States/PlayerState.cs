@@ -8,9 +8,7 @@ namespace DeadCells.Player.States
         Wall = 3,
         LedgeClimb = 4,
         Low = 5,
-        Staggered = 8,
-        Death = 9,
-        LightAttack = 11,
-        HeavyAttack = 12
+        Hurt = 6,
+        Attack = 7
     }
 }

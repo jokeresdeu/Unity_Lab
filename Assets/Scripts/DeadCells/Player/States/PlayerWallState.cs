@@ -24,44 +24,57 @@ namespace DeadCells.Player.States
         [SerializeField] private float _wallJumpTowardVerticalMultiplier = 1.2f;
         [SerializeField] private float _wallReattachTime = 0.2f;
 
+        [Header("Contact")]
+        [SerializeField] private Collider2D _standCollider;
+        [SerializeField] private LayerMask _ground;
+
         private float _timeOnWall;
         private int _wallDirection;
         private Collider2D _currentWall;
         private float _attachAllowedAt;
+        private bool _isGrounded;
 
         public override PlayerState Id => PlayerState.Wall;
         public override int ActivationPriority => 40;
-        public override int AnimationValue => (int)Mathf.Clamp(Rigidbody.linearVelocityY, -1,1);
+        public override int AnimationValue => (int)Mathf.Clamp(Rigidbody.linearVelocityY, -1, 1);
         private bool IsAvailable => _currentWall != null && Time.time >= _attachAllowedAt;
 
         public override bool CanBeActivated(PlayerState? currentState)
         {
             UpdatePhysics();
 
-            if (currentState != Id || !Input.ConsumeJump())
+            if(_isGrounded)
+                return false;
+
+            if(currentState != Id || !Input.ConsumeJump())
                 return IsAvailable && !(Input.JumpBuffered && Input.Vertical < 0);
-            
+
             StartWallJump();
             return false;
         }
 
+        public override void ResetState()
+        {
+            _timeOnWall = 0;
+            _attachAllowedAt = 0;
+            _currentWall = null;
+            _isGrounded = false;
+        }
+
         public override void EnterState()
         {
+            var canWallRun = Rigidbody.linearVelocityY > 0;
             Rigidbody.gravityScale = 0;
             Rigidbody.linearVelocity = Vector2.zero;
             _wallDirection = transform.forward.z > 0 ? 1 : -1;
-            _timeOnWall = 0;
+            _timeOnWall = canWallRun ? 0 : _wallRunTime + _wallHoldTime;
+            SnapToWall();
             UpdateWallMovement();
-        }
-
-        private void UpdatePhysics()
-        {
-            FindColliders(_wallChecker, _wallCheckRect, _wall);
-            _currentWall = Overlaps.Count > 0 ? Overlaps[0] : null;
         }
 
         public override void UpdateState()
         {
+            SnapToWall();
             UpdateWallMovement();
             _timeOnWall += Time.fixedDeltaTime;
         }
@@ -70,6 +83,36 @@ namespace DeadCells.Player.States
         {
             base.EndState();
             _attachAllowedAt = Time.time + _wallReattachTime;
+        }
+
+        private void UpdatePhysics()
+        {
+            FindColliders(_wallChecker, _wallCheckRect, _wall);
+            _currentWall = Overlaps.Count > 0 ? Overlaps[0] : null;
+            _isGrounded = IsOnGround();
+        }
+
+        private bool IsOnGround()
+        {
+            if(_standCollider == null || !_standCollider.enabled)
+                return false;
+
+            var bounds = _standCollider.bounds;
+            FindColliders(new Vector2(bounds.center.x, bounds.min.y),
+                new Vector2(bounds.size.x * 0.6f, 0.13f), _ground);
+            return Overlaps.Count > 0;
+        }
+
+        private void SnapToWall()
+        {
+            if(_standCollider == null || !_standCollider.enabled || _currentWall == null)
+                return;
+
+            var separation = Physics2D.Distance(_standCollider, _currentWall);
+            if(!separation.isValid)
+                return;
+
+            Rigidbody.position += new Vector2(separation.pointB.x - separation.pointA.x, 0);
         }
 
         private void UpdateWallMovement()

@@ -12,6 +12,8 @@ namespace DeadCells.Player.States
 
         [Header("Ladder")]
         [SerializeField] private float _ladderSpeed = 5;
+        [SerializeField] private float _centerSpeed = 6;
+        [SerializeField] private float _topExitDistance = 0.12f;
         [SerializeField] private float _ladderReattachTime = 0.2f;
 
         private Collider2D _currentLadder;
@@ -20,37 +22,88 @@ namespace DeadCells.Player.States
         public override PlayerState Id => PlayerState.Ladder;
         public override int ActivationPriority => 30;
         private bool IsAvailable => _currentLadder != null && Time.time >= _attachAllowedAt;
-
-        public override void EnterState()
-        {
-            Rigidbody.gravityScale = 0;
-            Rigidbody.linearVelocity = Vector2.zero;
-            Rigidbody.position = new Vector2(_currentLadder.bounds.center.x, Rigidbody.position.y);
-            Rigidbody.linearVelocityY = Input.Vertical * _ladderSpeed;
-        }
+        private bool IsOnTop => _currentLadder != null &&
+                                Rigidbody.position.y >= _currentLadder.bounds.max.y - _topExitDistance;
 
         public override bool CanBeActivated(PlayerState? currentState)
         {
             FindColliders(_ladderChecker, _ladderCheckRect, _ladder, true);
             _currentLadder = Overlaps.Count > 0 ? Overlaps[0] : null;
 
+            if(!IsAvailable || Input.JumpBuffered)
+                return false;
+
+            if(IsOnTop)
+                return Input.Vertical < 0;
+
             if(currentState == Id)
-                return IsAvailable && !Input.JumpBuffered;
+                return true;
 
             var isFalling = currentState == PlayerState.Air && AnimationController.StateValue < 0;
-            return IsAvailable && (Input.Vertical > 0 || isFalling) && !Input.JumpBuffered;
+            return Input.Vertical > 0 || isFalling;
+        }
+
+        public override void EnterState()
+        {
+            Rigidbody.gravityScale = 0;
+            Rigidbody.linearVelocity = Vector2.zero;
+            UpdateLadderMovement();
         }
 
         public override void UpdateState()
+        {
+            if(IsOnTop && Input.Vertical >= 0)
+            {
+                StandOnTop();
+                return;
+            }
+
+            MoveToCenter();
+            UpdateLadderMovement();
+        }
+
+        public override void EndState()
+        {
+            if(IsOnTop && Input.Vertical >= 0 && !Input.JumpBuffered)
+                StandOnTop();
+
+            base.EndState();
+            _attachAllowedAt = Time.time + _ladderReattachTime;
+        }
+
+        public override void ResetState()
+        {
+            _currentLadder = null;
+            _attachAllowedAt = 0;
+        }
+
+        private void MoveToCenter()
+        {
+            if(_currentLadder == null)
+                return;
+
+            var position = Rigidbody.position;
+            position.x = Mathf.MoveTowards(position.x, _currentLadder.bounds.center.x,
+                _centerSpeed * Time.fixedDeltaTime);
+            Rigidbody.position = position;
+            Rigidbody.linearVelocityX = 0;
+        }
+
+        private void UpdateLadderMovement()
         {
             Rigidbody.linearVelocityX = 0;
             Rigidbody.linearVelocityY = Input.Vertical * _ladderSpeed;
         }
 
-        public override void EndState()
+        private void StandOnTop()
         {
-            base.EndState();
-            _attachAllowedAt = Time.time + _ladderReattachTime;
+            if(_currentLadder == null)
+                return;
+
+            var position = Rigidbody.position;
+            position.y = _currentLadder.bounds.max.y;
+            Rigidbody.position = position;
+            Rigidbody.linearVelocity = Vector2.zero;
         }
 
         private void OnDrawGizmosSelected()
